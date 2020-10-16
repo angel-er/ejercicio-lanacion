@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import '../../sass/article.scss';
-
 const Article = ({urlImage, volanta, title, author}) => {
   return (
     <article className='article'>
