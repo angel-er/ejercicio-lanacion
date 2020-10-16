@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;352;400;500;800;900&display=swap');
+body {
+  margin: 0;
+
+  font-family: 'Arial', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import './section.scss';
+@import './boxArticle.scss';
+@import './article.scss';

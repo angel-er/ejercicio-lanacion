@@ -1,0 +1,26 @@
+@import './mixins';
+@import './media-screen';
+
+.box-articles-3 {
+  @include grid-col-3;
+
+  @include display-nth-child(article, 4);
+
+  @include media-screen;
+}
+
+.box-articles-6 {
+  @include grid-col-3;
+
+  @include display-nth-child(article, 7);
+
+  @include media-screen;
+}
+
+.box-articles-9 {
+  @include grid-col-3;
+
+  @include display-nth-child(article, 10);
+
+  @include media-screen;
+}
